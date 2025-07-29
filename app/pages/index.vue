@@ -11,7 +11,9 @@ useSeoMeta({
 <template>
   <div class="flex md:flex-row flex-col my-8">
     <Aside />
-    <div class="main w-full"></div>
+    <div class="main w-3/4">
+      <Slider />
+    </div>
     <Sidebar />
   </div>
 </template>

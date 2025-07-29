@@ -24,5 +24,18 @@ export const useStore = defineStore("icons", () => {
     },
   ];
 
-  return { list };
+  const info = {
+    age: "35",
+    location: "Germany",
+    job: "Frontend Developer",
+    email: "test@gmail.com",
+  };
+
+  const language = {
+    Russisch: "100",
+    Deutsch: "80",
+    English: "50",
+  };
+
+  return { list, info, language };
 });
