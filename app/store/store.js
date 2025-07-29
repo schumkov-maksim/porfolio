@@ -37,5 +37,29 @@ export const useStore = defineStore("icons", () => {
     English: "50",
   };
 
-  return { list, info, language };
+  const sliders = [
+    {
+      id: 1,
+      title: "Slider",
+      description: "This is a slider component",
+      image: "https://via.placeholder.com/150",
+      link: "https://example.com/slider",
+    },
+    {
+      id: 2,
+      title: "Another Slider",
+      description: "This is another slider component",
+      image: "https://via.placeholder.com/150",
+      link: "https://example.com/another-slider",
+    },
+    {
+      id: 3,
+      title: "Third Slider",
+      description: "This is the third slider component",
+      image: "https://via.placeholder.com/150",
+      link: "https://example.com/third-slider",
+    },
+  ];
+
+  return { list, info, language, sliders };
 });
