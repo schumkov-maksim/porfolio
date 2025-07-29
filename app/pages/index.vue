@@ -1,6 +1,11 @@
 <script setup lang="ts">
 import Aside from "~/components/Aside.vue";
 import Sidebar from "~/components/Sidebar.vue";
+
+useSeoMeta({
+  title: "Custom Page Title",
+  description: "SEO description for this page.",
+});
 </script>
 
 <template>
