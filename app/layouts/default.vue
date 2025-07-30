@@ -4,8 +4,14 @@ import Aside from "~/components/Aside.vue";
 
 <template>
   <div class="m-4 bg-white shadow-md test">
-    Deault Layout
-    <slot />
+    <div class="flex md:flex-row flex-col my-8">
+      <Aside />
+      <div class="main w-full md:w-3/4 px-8">
+        <Slider />
+        <slot />
+      </div>
+      <Sidebar />
+    </div>
   </div>
 </template>
 

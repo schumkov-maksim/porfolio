@@ -10,15 +10,8 @@ useSeoMeta({
 </script>
 
 <template>
-  <div class="flex md:flex-row flex-col my-8">
-    <Aside />
-    <div class="main w-full md:w-3/4 px-8">
-      <Slider />
-      <ServicesList />
-      <Portfolio />
-    </div>
-    <Sidebar />
-  </div>
+  <ServicesList />
+  <Portfolio />
 </template>
 
 <style>
