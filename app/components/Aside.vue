@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import Info from "./Info/Info.vue";
 import Language from "./Info/Language.vue";
+import Skills from "./Info/Skills.vue";
 import SozialList from "./sozial/SozialList.vue";
 </script>
 
@@ -10,6 +11,7 @@ import SozialList from "./sozial/SozialList.vue";
     <SozialList />
     <Info />
     <Language />
+    <Skills />
   </div>
 </template>
 

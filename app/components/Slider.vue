@@ -6,19 +6,19 @@ const containerRef = ref(null);
 // const slides = ref(Array.from({ length: 10 }));
 const swiper = useSwiper(containerRef, {
   loop: true,
-  //   autoplay: {
-  //     delay: 5000,
-  //   },
-  //   creativeEffect: {
-  //     prev: {
-  //       shadow: true,
-  //         translate: [0, 0, -400],
-  //     },
-  //     next: {
-  //       shadow: true,
-  //         translate: [0, 0, -400],
-  //     },
-  //   },
+  autoplay: {
+    delay: 5000,
+  },
+  creativeEffect: {
+    prev: {
+      shadow: true,
+      translate: [0, 0, -400],
+    },
+    next: {
+      shadow: true,
+      translate: [0, 0, -400],
+    },
+  },
 });
 </script>
 

@@ -5,6 +5,7 @@ const store = useStore();
 
 <template>
   <div class="w-full mt-[20px] px-4">
+    <p class="mb-[10px] text-bold">Sprachen</p>
     <div class="mb-2" v-for="(value, key) in store.language">
       <div class="flex justify-between">
         <div class="text-l">

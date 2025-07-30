@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import Aside from "~/components/Aside.vue";
+import Portfolio from "~/components/Info/Portfolio.vue";
 import Sidebar from "~/components/Sidebar.vue";
 
 useSeoMeta({
@@ -13,6 +14,8 @@ useSeoMeta({
     <Aside />
     <div class="main w-3/4 px-8">
       <Slider />
+      <ServicesList />
+      <Portfolio />
     </div>
     <Sidebar />
   </div>
