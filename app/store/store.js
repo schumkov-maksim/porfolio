@@ -13,14 +13,14 @@ export const useStore = defineStore("icons", () => {
       url: "https://www.facebook.com/",
     },
     {
-      name: "bxl:twitter",
+      name: "bxl:xing",
 
       url: "https://www.facebook.com/",
     },
     {
-      name: "bxl:tiktok",
+      name: "bxl:github",
 
-      url: "https://www.facebook.com/",
+      url: "https://github.com/schumkov-maksim/",
     },
   ];
 
@@ -121,45 +121,54 @@ export const useStore = defineStore("icons", () => {
       id: 19,
       url: "skill-icons:wordpress",
     },
+    {
+      id: 19,
+      url: "skill-icons:figma",
+    },
   ];
 
   const portfolio = [
     {
       id: 1,
-      title: "Mein Portfolio",
-      description: "Hier ist eine kurze Beschreibung meines Portfolios.",
-      image: "https://via.placeholder.com/150",
+      title: "Quiz App",
+      description: "React, SASS, JS",
+      image: "img/quiz.png",
+      url: "https://schumkov-maksim.github.io/quiz/",
     },
     {
       id: 2,
-      title: "Mein Portfolio 2",
-      description:
-        "Hier ist eine weitere kurze Beschreibung meines Portfolios.",
-      image: "https://via.placeholder.com/150",
+      title: "Template Cars",
+      description: "HTML 5 SCSS. JS",
+      image: "img/car.png",
+      url: "https://schumkov-maksim.github.io/cars/",
     },
     {
       id: 3,
-      title: "Mein Portfolio 3",
-      description: "Hier ist eine dritte kurze Beschreibung meines Portfolios.",
-      image: "https://via.placeholder.com/150",
+      title: "Web site Template",
+      description: "HTML 5, SCSS, JS, TYPO3",
+      image: "img/iskam.png",
+      url: "https://www.iskam.de/",
     },
     {
       id: 4,
-      title: "Mein Portfolio 3",
-      description: "Hier ist eine dritte kurze Beschreibung meines Portfolios.",
-      image: "https://via.placeholder.com/150",
+      title: "Web site Template",
+      description: "HTML 5, SCSS, JS, TYPO3",
+      image: "img/gesundheitscampus.png",
+      url: "https://www.gesundheitscampus-monheim.de/",
     },
     {
       id: 5,
-      title: "Mein Portfolio 3",
-      description: "Hier ist eine dritte kurze Beschreibung meines Portfolios.",
-      image: "https://via.placeholder.com/150",
+      title: "Web site Template",
+      description: "HTML 5, SCSS, JS, WP, Sage",
+      image: "img/pflege.png",
+      url: "https://www.werpflegtbewegt.de/",
     },
     {
       id: 6,
-      title: "Mein Portfolio 3",
-      description: "Hier ist eine dritte kurze Beschreibung meines Portfolios.",
-      image: "https://via.placeholder.com/150",
+      title: "Web site Template",
+      description: "HTML 5, SCSS, JS, Typo3",
+      image: "img/monamare.png",
+      url: "https://monamare.monheim.de/",
     },
   ];
 
