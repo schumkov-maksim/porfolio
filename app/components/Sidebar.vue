@@ -1,6 +1,10 @@
+<script setup lang="ts">
+import MenuListe from "./MenuListe.vue";
+</script>
+
 <template>
-  <div class="sidebar">
-    <p class="text-2xl">Sidebar</p>
+  <div class="sidebar md:block hidden">
+    <MenuListe />
   </div>
 </template>
 

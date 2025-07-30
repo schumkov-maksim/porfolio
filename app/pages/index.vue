@@ -12,7 +12,7 @@ useSeoMeta({
 <template>
   <div class="flex md:flex-row flex-col my-8">
     <Aside />
-    <div class="main w-3/4 px-8">
+    <div class="main w-full md:w-3/4 px-8">
       <Slider />
       <ServicesList />
       <Portfolio />
@@ -22,7 +22,14 @@ useSeoMeta({
 </template>
 
 <style>
+body {
+  background-color: #ffb400;
+}
+
 .main {
   background-color: #f1f0f6;
+  @media screen and (max-width: 768px) {
+    background-color: white;
+  }
 }
 </style>

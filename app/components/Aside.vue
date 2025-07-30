@@ -19,7 +19,8 @@ import SozialList from "./sozial/SozialList.vue";
 .aside {
   border-radius: 25px 0 0 25px;
   background-color: white;
-
-  height: 100vh;
+  @media screen and (max-width: 768px) {
+    border-radius: 25px 25px 0 0px;
+  }
 }
 </style>

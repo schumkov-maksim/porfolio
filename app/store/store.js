@@ -162,5 +162,27 @@ export const useStore = defineStore("icons", () => {
       image: "https://via.placeholder.com/150",
     },
   ];
-  return { list, info, language, sliders, skills, portfolio };
+
+  const menu = [
+    {
+      id: 1,
+      title: "Home",
+      url: "/",
+      img: "material-symbols:home-rounded",
+    },
+    {
+      id: 2,
+      title: "Study",
+      url: "/study",
+      img: "material-symbols:school",
+    },
+    {
+      id: 3,
+      title: "Job",
+      url: "/job",
+      img: "material-symbols:work",
+    },
+  ];
+
+  return { list, info, language, sliders, skills, portfolio, menu };
 });

@@ -3,13 +3,14 @@ import Aside from "~/components/Aside.vue";
 </script>
 
 <template>
-  <div class="m-4 bg-white shadow-md aside">
+  <div class="m-4 bg-white shadow-md test">
+    Deault Layout
     <slot />
   </div>
 </template>
 
-<style>
-body {
-  background-color: #ffb400;
+<style lang="css">
+.test {
+  border-radius: 25px;
 }
 </style>
