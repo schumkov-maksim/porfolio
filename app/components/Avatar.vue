@@ -8,6 +8,6 @@
       alt="Avatar"
     />
   </div>
-  <h2 class="text-2xl font-semibold mt-3">Test</h2>
-  <p class="text-xl">test test</p>
+  <h2 class="text-2xl font-semibold mt-3">Maksim Shumkov</h2>
+  <p class="text-xl">Frontend Developer</p>
 </template>
