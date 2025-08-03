@@ -1,3 +1,12 @@
+<script setup>
+useSeoMeta({
+  title: "Berufsweg",
+  description: "SEO description for this page.",
+});
+import Beruf from "../components/Beruf/Beruf.vue";
+</script>
+
 <template>
-  <h1>Job</h1>
+
+  <Beruf />
 </template>

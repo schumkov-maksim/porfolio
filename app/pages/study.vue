@@ -1,3 +1,12 @@
+<script setup>
+useSeoMeta({
+  title: "Study",
+  description: "SEO description for this page.",
+});
+import Study from "../components/Beruf/Study.vue";
+</script>
+
 <template>
-  <h1>Study</h1>
+
+  <Study />
 </template>
