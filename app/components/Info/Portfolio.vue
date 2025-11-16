@@ -4,7 +4,7 @@ const store = useStore();
 </script>
 
 <template>
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 pb-5">
     <div v-for="item in store.portfolio" :key="item.id" class="relative item">
       <NuxtLink :to="item.url" target="_blank">
         <h3 class="text-lg font-bold">{{ item.title }}</h3>

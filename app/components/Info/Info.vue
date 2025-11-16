@@ -9,7 +9,8 @@ const store = useStore();
       <div class="text-l">
         <span class="font-semibold capitalize">{{ key }}:</span>
       </div>
-      <div class="font-medium">{{ value }}</div>
+      <div class="font-medium"> {{ typeof value === 'function' ? value() : value }}</div>
+      
     </div>
   </div>
   <div class="w-100 h-[1px] bg-stone-200/50 mt-5"></div>

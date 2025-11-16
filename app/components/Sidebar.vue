@@ -3,7 +3,7 @@ import MenuListe from "./MenuListe.vue";
 </script>
 
 <template>
-  <div class="sidebar md:block hidden">
+  <div class="sidebar md:block hidden px-5 h-full">
     <MenuListe />
   </div>
 </template>

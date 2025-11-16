@@ -25,7 +25,7 @@ export const useStore = defineStore("icons", () => {
   ];
 
   const info = {
-    age: "35",
+    age: () => new Date().getFullYear() - 1988,
     location: "Germany",
     job: "Frontend Developer",
     email: "test@gmail.com",
